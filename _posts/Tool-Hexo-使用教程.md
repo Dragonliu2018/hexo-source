@@ -38,7 +38,11 @@ npm install -g hexo-cli
 
    ```shell
    cd hexo-blog
+
    git clone https://github.com/Dragonliu2018/hexo-theme-pure.git themes/pure
+
+   # 删除默认生成的 _posts 目录
+   rm -rf source/_posts
    git clone https://github.com/Dragonliu2018/hexo-source.git source
    ```
 
@@ -51,10 +55,10 @@ npm install -g hexo-cli
    npm install hexo-generator-sitemap --save
    npm install hexo-generator-baidu-sitemap --save
    npm install hexo-neat --save
-   npm install hexo-baidu-url-submit --save
    npm install hexo-translate-title --save
    npm un hexo-renderer-marked --save
    npm i hexo-renderer-markdown-it-plus --save
+   npm install hexo-deployer-git --save
    ```
 
 4. 修改 _config.yml
@@ -65,11 +69,11 @@ npm install -g hexo-cli
    + language: zh-CN
    
    # 搜索界面的分类部分拼接 url
-   - url: https://example.com
+   - url: http://example.com
    + url: https://dragonliu2018.github.io
    
    # 设置主题
-   - theme: 
+   - theme: landscape
    + theme: pure
    
    # 设置部署
