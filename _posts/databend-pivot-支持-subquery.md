@@ -1,9 +1,8 @@
 ---
-title: '[Databend][pr] pivot 支持 subquery'
+title: '[databend] pivot 支持 subquery'
 categories:
-  - [DB,Databend,pr]
-  - [DB,Databend,执行器,表达式]
-  - [DB,执行器,表达式]
+  - [DB,databend]
+  - [DB,函数/表达式]
 toc: true
 mathjax: true
 top: false
@@ -16,7 +15,7 @@ tags: pr
 # 1 任务背景
 
 * **Issue**：https://github.com/databendlabs/databend/issues/16556
-* **PR：**https://github.com/databendlabs/databend/pull/16631
+* **PR**：https://github.com/databendlabs/databend/pull/16631
 
 ## 1.1 任务介绍
 

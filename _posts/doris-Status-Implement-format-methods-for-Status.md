@@ -1,7 +1,7 @@
 ---
-title: '[Doris][pr] Implement format methods for Status'
+title: '[doris][Status] Implement format methods for Status'
 categories:
-  - [Doris,pr]
+  - [DB,doris]
 toc: true
 mathjax: true
 top: false
