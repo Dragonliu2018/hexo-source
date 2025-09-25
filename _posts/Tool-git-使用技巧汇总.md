@@ -93,6 +93,16 @@ git branch --set-upstream-to=origin/<远程分支名>
 
 ```
 
+# 删除分支
+
+```shell
+# 删除本地分支
+git branch -D fix/authentication
+
+# 删除远程分支
+ git push origin --delete fix/authentication
+```
+
 # 撤销 commit
 
 ```shell
@@ -103,6 +113,10 @@ git reset --soft HEAD^
 git reset HEAD^
 git push -f
 ```
+# 修改远程仓库链接
 
+```shell
+git remote set-url origin git@github.com:Dragonliu2018/doris.git
+```
 
 
