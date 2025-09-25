@@ -1,7 +1,7 @@
 ---
-title: '[Tool] C++ benchmark'
+title: '[Tool][opt] C++ benchmark'
 categories:
-  - [Tool,调优]
+  - [Tool,opt]
   - [PL,C++]
 toc: true
 mathjax: true

@@ -1,7 +1,7 @@
 ---
-title: '[Tool] gperf 安装使用教程'
+title: '[Tool][opt] gperf 安装使用教程'
 categories:
-  - [Tool,调优]
+  - [Tool,opt]
 toc: true
 mathjax: true
 top: false
