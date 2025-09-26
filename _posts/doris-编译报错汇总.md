@@ -1,5 +1,5 @@
 ---
-title: '[DB][doris] 编译报错汇总'
+title: '[doris] 编译报错汇总'
 categories:
   - [DB,doris]
 toc: true

@@ -1,5 +1,5 @@
 ---
-title: '[DB][doris] 运行报错汇总'
+title: '[doris] 运行报错汇总'
 categories:
   - [DB,doris]
 toc: true

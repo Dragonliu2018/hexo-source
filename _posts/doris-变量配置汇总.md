@@ -1,5 +1,5 @@
 ---
-title: '[DB][doris] 变量配置汇总'
+title: '[doris] 变量配置汇总'
 categories:
   - [DB,doris]
 toc: true

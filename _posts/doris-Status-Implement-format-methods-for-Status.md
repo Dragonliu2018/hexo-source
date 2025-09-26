@@ -13,6 +13,9 @@ tags: pr
 
 # 1 issue 介绍
 
+* **issue**: https://github.com/apache/doris/issues/25974
+* **PR**: https://github.com/apache/doris/pull/26133
+
 当前 `Status` 类型进行 format 时，需要调用 `to_string` 函数：
 
 ```cpp
