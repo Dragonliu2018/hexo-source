@@ -119,4 +119,16 @@ git push -f
 git remote set-url origin git@github.com:Dragonliu2018/doris.git
 ```
 
+# 切换 tag
+
+```shell
+# 查看对应 tag 的代码，这时候 git 可能会提示你当前处于一个“detached HEAD" 状态。
+# 因为 tag 相当于是一个快照，是不能更改它的代码的。
+git checkout tag_name
+
+
+# 基于 tag commit 进行修改
+# 如果要在 tag 代码的基础上做修改，你需要一个分支
+git checkout -b branch_name tag_name
+```
 
