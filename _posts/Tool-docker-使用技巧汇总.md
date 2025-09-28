@@ -11,6 +11,26 @@ copyright: true
 tags:
 ---
 
+# 安装
+## mac
+ref: https://www.runoob.com/docker/macos-docker-install.html
+
+【方法1】使用 Homebrew 安装
+
+```shell
+brew install --cask --appdir=/Applications docker
+```
+
+***
+
+【方法2】手动下载安装
+
+* https://docs.docker.com/docker-for-mac/install/
+
+# 镜像加速
+
+* https://www.runoob.com/docker/macos-docker-install.html
+
 # 导出导入镜像
 
 ```shell
