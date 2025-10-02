@@ -8,7 +8,8 @@ top: false
 comments: true
 copyright: true
 date: 2025-09-27 00:09:09
-tags:
+  - pr
+  - notion
 ---
 
 # 1 issue 介绍
